@@ -30,4 +30,4 @@ image <- matrix(as.numeric(train[41936,-1]), nrow = 28, ncol =28, byrow = TRUE) 
 image(1:28, 1:28, image, col = gray(0:255/255))
 
 # overall, the incorrect predictions from the model stems from very poor handwriting.
-# This can be improved by training more images.  However, I will move onto attemp using h20 package. 
+# This can be improved by training more images. 
